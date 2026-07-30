@@ -1,0 +1,61 @@
+# ==========================================
+# 🐍 PYTHON: Arquivos temporários e de compilação
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# 🌐 AMBIENTES VIRTUAIS (Venvs)
+# ==========================================
+# Ambientes virtuais costumam ser pesados e não devem ir pro GitHub
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ==========================================
+# 💻 CONFIGURAÇÕES DO VS CODE & SISTEMA
+# ==========================================
+# Configurações pessoais do seu VS Code local
+.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# 🧪 TESTES, COBERTURA & LOGS
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ==========================================
+# 🔑 SEGURANÇA / VARIÁVEIS DE AMBIENTE
+# ==========================================
+# NUNCA envie senhas, chaves de API ou segredos para o GitHub!
+.env
+.env.local
