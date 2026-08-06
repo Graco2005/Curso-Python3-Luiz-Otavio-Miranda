@@ -15,19 +15,22 @@ Se nada for digitado em nome ou idade:
 """
 nome_usuario = input('Digite seu nome: ')
 idade_usuario = input('Agora, digite a sua idade: ')
-nome_usuario_invertido = nome_usuario[::-1]
-contem_espacos = ''
 
-if ' ' in nome_usuario:
-    contem_espacos = 'contem espaços'
+if nome_usuario and idade_usuario:
+    print(f'Seu nome é {nome_usuario}')
+    print(f'Seu nome invertido é {nome_usuario[::-1]}')
+
+    if ' ' in nome_usuario:
+        print('Seu nome contem espaços')
+    else:
+        print('Seu nome não contem espaços')
+
+    print(f'Seu nome tem {len(nome_usuario)} espaços')
+    print(f'A primeira letra do seu nome é {nome_usuario[0]}')
+    print(f'A última letra do seu nome é {nome_usuario[len(nome_usuario) - 1]}')
+elif nome_usuario:
+    print('Somente o nome do usuário foi digitado. Tente novamente.')
+elif idade_usuario:
+    print('Somente a idade do usuário foi digitada. Tente novamente.')
 else:
-    contem_espacos = 'não contem espaços'
-
-print(
-    f'Seu nome é {nome_usuario}\n'
-    f'Seu nome invertido é {nome_usuario_invertido}\n'
-    f'Seu nome {contem_espacos}\n'
-    f'Seu nome contem {len(nome_usuario)} letras\n'
-    f'A primeira letra do seu nome é {nome_usuario[0]}\n'
-    f'A última letra do seu nome é {nome_usuario[len(nome_usuario) - 1]}\n'
-)
+    print('Entradas invalidas. Tente novamente.')
