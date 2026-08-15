@@ -41,8 +41,21 @@ Métodos úteis: append, insert, pop, del, clear, extend, +
 # lista.insert(100, 40)
 # print(lista)
 
-lista_a = [1, 2, 3]
-lista_b = [4, 5, 6]
-lista_c = lista_a + lista_b # O sinal de '+' realiza a concatenação das listas, assim como as strings
-lista_a.extend(lista_b)
+# lista_a = [1, 2, 3]
+# lista_b = [4, 5, 6]
+# lista_c = lista_a + lista_b # O sinal de '+' realiza a concatenação das listas, assim como as strings
+# lista_a.extend(lista_b)
+# print(lista_a)
+
+"""
+Cuidados com dados mutáveis
+= - copiado o valor (imutáveis)
+= - aponta para o mesmo valor na memória (mutável)
+"""
+
+lista_a = ['Luis', 'Marina', 1, True, 1.2]
+lista_b = lista_a.copy() # Copia a lista_a, logo as alterações na lista_a não afetam a lista_b
+
+lista_a[0] = 'Qualquer coisa'
 print(lista_a)
+print(lista_b)
