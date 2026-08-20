@@ -41,5 +41,3 @@ soma_digitos_vezes_10_resto_divisao = soma_digitos_vezes_10 % 11
 resultado = soma_digitos_vezes_10_resto_divisao
 
 resultado = resultado if resultado <= 9 else  0
-
-print(resultado)
