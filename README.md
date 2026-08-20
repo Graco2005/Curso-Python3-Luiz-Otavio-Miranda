@@ -20,7 +20,7 @@ Aqui está a organização do repositório dividida pelos módulos do curso:
   - Exceções (`try`, `except`)
   - Laços de Repetição (`for`/ `for in`, `while`, `range`)
   - Listas, Tuplas
-- [...] **Seção 2: Funções, Dicionário, Módulos, Programação Funcional e +**
+- [ ] **Seção 2: Funções, Dicionário, Módulos, Programação Funcional e +**
   - ...
   - ...
 - [ ] **Seção 3: Introdução a Programação Orientada a Objetos - POO (Classes)**
