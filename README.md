@@ -1,4 +1,4 @@
-# 🐍 Curso de Python: do Introdução ao Avançado
+# 🐍 Curso de Python: da Introdução ao Avançado
 
 ![Status](https://img.shields.io/badge/Status-Em_Andamento-blue)
 ![Linguagem](https://img.shields.io/badge/Python-3.13.2-yellow)
@@ -11,26 +11,30 @@ Este repositório contém todos os meus códigos, anotações e exercícios dese
 
 Aqui está a organização do repositório dividida pelos módulos do curso:
 
-- [x] **Módulo 1: Fundamentos Básicos**
+- [x] **Seção 1: Fundamentos Básicos**
   - Variáveis e Tipos de Dados
   - Operadores Aritméticos e Lógicos
   - Entrada e Saída de Dados (`input` / `print`)
-- [ ] **Módulo 2: Estruturas de Controle**
+  - Formatação (f-strings) e Manipulação de Strings
   - Condicionais (`if`, `elif`, `else`)
-  - Laços de Repetição (`for`, `while`)
-- [ ] **Módulo 3: Estruturas de Dados**
-  - Listas, Tuplas e Dicionários
-  - Manipulação de Strings
-- [ ] **Módulo 4: Funções e Módulos**
-  - Definição de Funções e Parâmetros
-  - Importação de Módulos Padrão
-- [ ] **Módulo 5: Programação Orientada a Objetos (POO)**
-  - Classes e Objetos
-  - Herança, Encapsulamento e Polimorfismo
-- [ ] **Módulo 6: Tópicos Avançados**
-  - Tratamento de Exceções (`try/except`)
-  - Manipulação de Arquivos (`.txt`, `.json`)
-  - Módulos e Pacotes Externos
+  - Exceções (`try`, `except`)
+  - Laços de Repetição (`for`/ `for in`, `while`, `range`)
+  - Listas, Tuplas
+- [...] **Seção 2: Funções, Dicionário, Módulos, Programação Funcional e +**
+  - 
+  - 
+- [ ] **Seção 3: Introdução a Programação Orientada a Objetos - POO (Classes)**
+  - 
+  - 
+- [ ] **Seção 4: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e mais**
+  - 
+  - 
+- [ ] **Seção 5: PySide6 - Interface gráfica com QT 6 no Python - GUI para Desktop**
+  - 
+  - 
+- [ ] **Seção 6: Bases de Dados com Python - SQLite (sqlite3) e MySQL (pymysql)**
+  - 
+  - 
 
 ---
 
@@ -40,11 +44,11 @@ Para manter tudo organizado, os arquivos estão separados da seguinte forma:
 
 ```text
 .
-├── modulo-01-fundamentos/
-│   ├── 01_variaveis.py
+├── 01-python-basico/
+│   ├── aulas_exemplos.py
 │   └── exercicios.py
-├── modulo-02-estruturas-controle/
-│   └── exercicios_laços.py
+├── 02-python-intermediario-funcoes-modulos-etc/
+│   └── aulas_exemplo.py
 ├── .gitignore
 └── README.md
 ```
@@ -53,7 +57,7 @@ Para manter tudo organizado, os arquivos estão separados da seguinte forma:
 
 ## 🛠️ Tecnologias e Ferramentas
 
-* **Linguagem:** [Python 3.x](https://www.python.org/)
+* **Linguagem:** [Python 3.13.2](https://www.python.org/)
 * **IDE:** [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 * **Controle de Versão:** Git & GitHub
 
